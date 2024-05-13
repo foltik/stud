@@ -1,0 +1,12 @@
+[workspace.package]
+version = "0.1.1"
+authors = ["Jack Foltz <jack@foltz.io>"]
+edition = "2021"
+license = "MIT"
+
+[workspace]
+resolver = "2"
+members = [
+    "crates/stud",
+    "crates/stud-macros"
+]
